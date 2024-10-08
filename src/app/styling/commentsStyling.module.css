@@ -1,0 +1,60 @@
+/*! 370PX-519PX MOBILE */
+@media (min-width: 370px) {
+    
+}
+
+/*! 520PX-679PX */
+@media (min-width: 520px) {
+
+}
+
+/*! 680PX-1059PX */
+@media (min-width: 680px) {
+    
+
+}
+
+/*! 1060PX-1799PX LAPTOP*/
+@media (min-width: 1060px) {
+    
+}
+
+/*! 1800PX+ PC*/
+@media (min-width: 1800px) {
+    .comsFormStyle {
+        color: black;
+        
+    }
+    .subCom {
+        color: white;
+        margin: 1vw;
+    }
+    .listLink {
+        color: aqua;
+        position: relative;
+    }
+
+    .commentStyle {
+        margin: 1vw;
+        font-weight: bold;
+    }
+
+    .nameInputStyle {
+        margin: 1vw;
+        height: 3.5vh;
+
+    }
+    .messageInputStyle {
+        height: 3.5vh;
+    }
+
+    .deleteButtonStyle {
+        color: red;
+        margin-top: 0.5vw;
+    }
+
+    .likeButtonStyle {
+        margin: 1vw;
+    }
+
+}

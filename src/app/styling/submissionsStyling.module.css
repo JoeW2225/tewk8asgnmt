@@ -1,0 +1,139 @@
+/*! 370PX-519PX MOBILE */
+@media (min-width: 370px) {
+    
+}
+
+/*! 520PX-679PX */
+@media (min-width: 520px) {
+
+}
+
+/*! 680PX-1059PX */
+@media (min-width: 680px) {
+    
+
+}
+
+/*! 1060PX-1799PX LAPTOP*/
+@media (min-width: 1060px) {
+    
+}
+
+/*! 1800PX+ PC*/
+@media (min-width: 1800px) {
+    .subsStyle {
+        font-size: 3vh;
+        
+    }
+    .oneSubStyle {
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        border-radius: 5px;
+        margin: 3vw;
+        border: 0.4vw solid antiquewhite;
+        border-radius: 10% / 10% / 10%;
+        padding: 1vw;
+    }
+
+    .addSubStyle {
+        font-size: 2vw;
+    }
+
+    .subHeading {
+        font-weight: 600;
+        padding: 1vw;
+        font-size: 1vw;
+    }
+
+    .subFormStyle {
+        margin: 1vw;
+        font-size: 1vw;
+        color: rgb(0, 255, 21);
+        
+    }
+
+    .venueStyle {
+        margin: 0.5vw;
+        height: 5vh;
+        width: 6vw;
+        color: black;
+    }
+
+    .nameStyle {
+        margin: 0.5vw;
+        height: 5vh;
+        color: black;
+    }
+
+    .ownStyle {
+        margin: 0.5vw;
+        height: 5vh;
+        width: 16vw;
+        color: black;
+    }
+
+    .locStyle {
+        margin: 0.5vw;
+        height: 5vh;
+        color: black;
+    }
+
+    .deletePostStyle {
+        color: red;
+        position: relative;
+        left: 5vw;
+    }
+
+    .tapTalkStyle {
+        color: aqua;
+        position: relative;
+        left: 50vw;
+
+    }
+
+    .userMessStyle {
+        font-size: 1.5vw;
+        margin: 1vw;
+    }
+
+    .commentBoxStyle {
+        margin: 1vw;
+        margin-top: 2vw;
+        border: 0.4vw solid antiquewhite;
+        border-radius: 10% / 10% / 10%;
+        padding: 1vw;
+        width: fit-content;
+    }
+
+    .homeLink {
+        margin: 1vw;
+        color: #ff25bf;
+    }
+
+    .homeLinks {
+        font-size: 3vw;
+        padding: 2vh;
+    }
+
+    .pAndBStyle {
+        font-size: 4vw;
+        margin: 2vw;
+    }
+
+    .sortStyle {
+        margin: 1vw;
+    }
+
+    .pubListStyle {
+        margin: 1vw;
+        
+    }
+}
+
+
+
+
+
+
