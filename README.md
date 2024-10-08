@@ -44,36 +44,37 @@ Examples of this would be:
 If we didn't use this method, and we did it like this:
 
 return (
-<>
-<>
-<h3 className={SubHeading.subHeading}>Submit your own...</h3>
-<form className={SubsFormStyle.subFormStyle} onSubmit= {handleSubmit}>
-<input className={VenueStyle.venueStyle}
+    
+    <h3 className={SubHeading.subHeading}>Submit your own...</h3>
+
+    <form className={SubsFormStyle.subFormStyle} onSubmit= {handleSubmit}>
+    <input className={VenueStyle.venueStyle}
+
                     value={values.venue}
                     name="venue"
                     placeholder="Pub or Bar?"
                     onChange={handleInputChange}/>
-<input className={NameStyle.nameStyle}
+    <input className={NameStyle.nameStyle}
                     value={values.name}
                     name="name"
                     placeholder="Exclude 'The'"
                     onChange={handleInputChange}/>
-<input className={OwnStyle.ownStyle}
+    <input className={OwnStyle.ownStyle}
                     value={values.ownership}
                     name="ownership"
                     placeholder="Freehouse, Greenking, Independent..."
                     onChange={handleInputChange}/>
-<input className={LocStyle.locStyle}
+    <input className={LocStyle.locStyle}
                     value={values.location}
                     name="location"
                     placeholder="Hammersmith, Blackfriars..."
                     onChange={handleInputChange}/>
-<button>Submit</button>
-</form>
-</>
-<button onClick={handleDelete}>Delete</button>
-</>
-)
+    <button>Submit</button>
+    </form>
+    </>
+    <button onClick={handleDelete}>Delete</button>
+    </>
+    )
 
 There would be a number of issues:
 If we didn't have the delete option and it was just the form and submission this would be fine.
